@@ -1,0 +1,83 @@
+
+TimePickerStyle#TimePicker.Landscape
+{
+	minimum-size: 356px 356px;
+	preferred-size: 356px 356px;
+	maximum-size: 356px 356px;
+}
+
+TimePickerStyle#TimePicker.Portrait
+{
+	minimum-size: 416px 416px;
+	preferred-size: 416px 416px;
+	maximum-size: 416px 416px;
+}
+
+
+#cDigitalDate.Landscape {
+    margin-top: 115px;
+}
+
+#cDigitalDate.Portrait {
+    margin-top: 32px;
+}
+
+#cDigitalTime.Landscape {
+    margin-top: 115px;
+}
+
+#cDigitalTime.Portrait {
+    margin-top: 32px;
+}
+
+TimeView MButtonStyle#sDigitalTime {
+    preferred-size: -1 50px;
+    minimum-size: -1 50px;
+    maximum-size: -1 50px;
+
+    background-image: ;
+    background-opacity: 0.0;
+    text-color: $COLOR_ACCENT1;
+    font: $FONT_FAMILY light 50px;
+    font-weight: light;
+}
+
+DateView MButtonStyle#sDigitalDate {
+    preferred-size: -1 50px;
+    minimum-size: -1 50px;
+    maximum-size: -1 50px;
+
+    background-image: ;
+    background-opacity: 0.0;
+    text-color: $COLOR_ACCENT1;
+    font: $FONT_FAMILY light 50px;
+    font-weight: light;
+}
+
+#cMonthWidget.Landscape
+{
+	minimum-size: 432px 382px;
+	preferred-size: 432px 382px;
+	maximum-size: 432px 382px;
+}
+
+#cMonthWidget.Portrait
+{
+	minimum-size: 480px 435px;
+	preferred-size: 480px 435px;
+	maximum-size: 480px 435px;
+}
+#sDigitalTimeAmBtn {
+    background-image: "meegotouch-button-inverted-background";
+    margin-bottom: 7px;
+    text-color: $COLOR_ACCENT;
+    font: $FONT_FAMILY light 50px;
+}
+
+#sDigitalTimePmBtn {
+    background-image: "meegotouch-button-inverted-background";
+    margin-bottom: 7px;
+    text-color: $COLOR_ACCENT;
+    font: $FONT_FAMILY light 50px;
+}
+		

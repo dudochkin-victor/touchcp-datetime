@@ -1,0 +1,16 @@
+[Desktop Entry]
+Type=DUIApplet
+Name=Time zone
+X-logical-id=qtn_comm_settings_timezone
+X-translation-catalog=date-time
+Icon=
+Exec=
+
+[DUI]
+X-DUIApplet-Applet=libdatetimeapplet.so
+
+[DCP]
+Category=Startup
+Part=TimeZone
+Order=4
+

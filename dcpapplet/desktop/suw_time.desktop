@@ -1,0 +1,18 @@
+[Desktop Entry]
+Type=DUIApplet
+Name=Time
+Icon=
+Exec=
+X-logical-id=qtn_comm_settings_time
+X-translation-catalog=date-time
+
+[DUI]
+X-DUIApplet-Applet=libdatetimeapplet.so
+X-DUIApplet-ImageLandscape=Widget_landscape_weather.png
+X-DUIApplet-ImagePortrait=Widget_portrait_weather.png
+
+[DCP]
+Category=Startup
+Part=Time
+Order=1
+

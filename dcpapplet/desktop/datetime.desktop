@@ -1,0 +1,19 @@
+[Desktop Entry]
+Type=ControlPanelApplet
+Name=Date & Time
+Icon=
+Exec=
+X-logical-id=qtn_date_time_title
+X-translation-catalog=date-time
+X-Maemo-Service=com.nokia.DuiControlPanel
+X-Maemo-Method=com.nokia.DuiControlPanelIf.appletPage
+X-Maemo-Object-Path=/
+X-Maemo-Fixed-Args=Date & Time
+
+[DUI]
+X-DUIApplet-Applet=libdatetimeapplet.so
+
+[DCP]
+Category= Time & Date
+Order=0
+

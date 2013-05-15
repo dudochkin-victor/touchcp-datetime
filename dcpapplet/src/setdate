@@ -1,0 +1,15 @@
+# setting date and time
+#!/bin/bash
+if test $1 = "d"
+then
+    /bin/date -s "$2-$3-$4 $5:$6:$7"
+else
+if test $1 = "tz"
+then
+    ln -fs /usr/share/zoneinfo/$2 /etc/localtime
+    echo "ln -sf /usr/share/zoneinfo/$2 /etc/localtime" >/home/meego/tzcommand
+else
+    echo "Bad parameter"
+fi
+fi
+

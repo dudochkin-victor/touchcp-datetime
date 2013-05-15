@@ -1,0 +1,16 @@
+[Desktop Entry]
+Type=DUIApplet
+Name=Date
+Icon=
+Exec=
+X-logical-id=qtn_comm_settings_date
+X-translation-catalog=date-time
+
+[DUI]
+X-DUIApplet-Applet=libdatetimeapplet.so
+
+[DCP]
+Category= Startup
+Part=Date
+Order=2
+

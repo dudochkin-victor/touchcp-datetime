@@ -1,0 +1,3 @@
+Defaults:root !requiretty
+Defaults:meego !requiretty
+meego ALL = NOPASSWD: /usr/lib/duicontrolpanel/applets/setdate *

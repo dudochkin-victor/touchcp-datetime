@@ -1,0 +1,39 @@
+Source: duicontrolpanel-datetimeapplet
+Section: devel
+Priority: extra
+Maintainer: Laszlo Gal <laszlo.gal@blumsoft.eu>
+Build-Depends: debhelper (>= 5), libduicontrolpanel-dev (>= 0.7.2), libicu-dev, meegotouch-cities-default,
+               libtimepicker-dev,
+               libdatepicker2-dev (>= 0.5.1), libcellular-qt-dev (>= 0.5),
+               libqmsystem2-dev (>= 0.0.4), libmeegotouch-dev (>= 0.20)
+Standards-Version: 3.7.2
+
+
+Package: duicontrolpanel-datetimeapplet
+Section: x11
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends},
+         duicontrolpanel (>= 0.7.2), libduicontrolpanel (>= 0.7.2),libqmsystem2 (>= 0.0.4),
+         duicontrolpanel-datetimeapplet-l10n-engineering-english (= ${binary:Version})
+Description: Date & Time Applet for the control panel application
+
+Package: duicontrolpanel-datetimeapplet-dbg
+Section: devel
+Architecture: any
+Depends: duicontrolpanel-datetimeapplet (= ${binary:Version})
+Description: Control Panel Date & Time Applet - debug symbols
+
+Package: duicontrolpanel-datetimeapplet-l10n-engineering-english
+Section: devel
+Architecture: any
+Enhances: duicontrolpanel-datetimeapplet
+Description: Engineering English translations for the date & time controlpanel applet
+
+Package: duicontrolpanel-datetimeapplet-tests
+Section: misc
+Architecture: any
+Depends: ${shlibs:Depends}, duicontrolpanel-datetimeapplet (= ${binary:Version}), libqtgui4
+XB-Maemo-CI-Packages: duicontrolpanel-datetimeapplet
+XB-Maemo-CI-Stage: fast, staging, acceptance
+Description: duicontrolpanel-datetimeapplet unit tests
+ Unit testing certain components of duicontrolpanel-datetimeapplet
